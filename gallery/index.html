@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>思维工艺</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="head">
+  <div>
+    <h1>思维工艺</h1>
+    <p class="sub" id="workspace">读取工作区…</p>
+  </div>
+  <button class="primary" id="run-today">跑今天的生产线</button>
+</header>
+
+<section class="lines" id="lines"></section>
+
+<section class="runs">
+  <div class="runs-head">
+    <h2>最近的每日 DEMO</h2>
+    <span class="hint" id="runs-hint"></span>
+  </div>
+  <div id="runs"></div>
+</section>
+
+<div class="toast" id="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

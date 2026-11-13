@@ -1,0 +1,6 @@
+# 复制成 cordis.patch.yml 再填自己的工作区路径；真实文件不进仓库（含本机绝对路径）。
+- insert:
+    - id: dsh-siwei
+      name: dsh-siwei
+      config:
+        workspace: '/path/to/your/workspace'
